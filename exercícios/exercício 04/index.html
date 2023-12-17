@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>variáveis</title>
+        
+        <link rel="stylesheet" href="_css/layout.css">
+        <script type="text/javascript">
+           var num1 = parseInt(prompt('Digite o primeiro Valor'))           
+           var num2 = parseInt(prompt('Digite o segundo Valor'))
+
+           if(num1 < num2){
+                for (var i = num1; i < num2; i++) {
+                    document.writeln(i)                    
+                }
+           }else if(num2 < num1){
+                for (var i = num2; i < num1; i++) {
+                    document.writeln(i)                    
+                }
+           }else if(num1 == num2){
+                document.writeln('Os números são igual ('+ num1 +' = '+ num2 +')')
+           }            
+
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            
+
+        </div>
+    </body>
+</html>
