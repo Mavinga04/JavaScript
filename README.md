@@ -1,2 +1,2 @@
 # JavaScript
- exercícios com JavaScript
+Programando em JavaScript
